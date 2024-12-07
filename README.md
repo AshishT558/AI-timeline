@@ -1,0 +1,1 @@
+# Tech and Human Values: Normalization of Deviance in AI Trends
