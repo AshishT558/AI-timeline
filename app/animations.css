@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* A style sheet for animations only */
+
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.image-container:hover > img {
+    transform: translateX(-100%);
+    transition-delay: 1s;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
