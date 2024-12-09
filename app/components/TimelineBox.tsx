@@ -12,14 +12,14 @@ export default function TimelineBox({className, id, title, date, description} : 
     return (
         <div className={className}>
             <div className="flex flex-col w-[40rem] mx-5 border-[2px] shadow-lg shadow-green-500/50 rounded-lg hover:shadow-green-500/70">
-                <div className="flex flex-row justify-between m-5">
+                <div className="flex flex-row justify-between m-5 text-xl font-bold">
                     <h1 className="pr-10">{title}</h1>
                     <h1 className="text-green-600">{date}</h1>
                 </div>
                 <div className="m-5 text-left">
                     <p className="text-pretty">{description}</p>
                 </div>
-                <Link href={`/pages/research/#${id}`} className="hover:scale-105 text-white bg-green-500 hover:bg-green-600 font-medium rounded-lg text-sm m-5 py-2.5  dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800">
+                <Link href={`/pages/research/#${id}`} className="text-white bg-green-500 hover:bg-green-600 font-medium rounded-lg text-sm m-5 py-2.5  dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800">
                     Read More
                 </Link>
             </div>
