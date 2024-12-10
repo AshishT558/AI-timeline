@@ -38,23 +38,92 @@ export default function Home() {
           Start
         </Link>
       </div>
-
-      
       <div id="timeline" className="text-2xl py-10 text-green-600">
-        Early AI
+        Birth of Computing and AI
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 h-screen">
-        <div className="border-r-2 gap-y-[10rem]">
-          <TimelineBox className="pt-5" id="Computation: Ada Lovelace and Charles Babbage" title="Computation: Ada Lovelace and Charles Babbage" date="1837" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></TimelineBox>
-          <TimelineBox className="pt-[30rem]" id="Article3" title="Title" date="1950" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></TimelineBox>
+      <div className="grid grid-cols-2">
+        <div className="lg:border-r-2 gap-y-[10rem]">
+          <TimelineBox className="mt-5 hidden lg:block" id="Early Computing" title="Computation: Ada Lovelace and Charles Babbage" date="1837" 
+          description={<>- In 1837, the English mathematician Charles Babbage began work on the Analytical Engine. This was the culmination of years of work on computing machines and the first design for a Turing-complete computer
+            <br></br> <br></br>- While construction of the machine never finished, its design influenced the structure of the first working computers a century later
+            <br></br> <br></br>- In 1843, while working with Babbage on the engine, the mathematician Ada Lovelace wrote a series of notes for the engine, believed to be the first computer program
+            </>}></TimelineBox>
+          <TimelineBox className="mt-[30rem]" id="AI Groundwork" title="Turing Test" date="1950" 
+          description={<>- In 1949, Turing published a landmark paper, 'Computing Machinery and Intelligence', considered to have launched the field of artificial intelligence
+         <br></br> <br></br>- Rather than investigating whether or not machines could think,Turing proposed the famous Turing test to ascertain if they could act like a human mind
+         <br></br> <br></br>- The test comprises a human player, a computer, and an interrogator, who asks questions to determine which is the human and which is the machine
+          </>}></TimelineBox>
+          <TimelineBox className="mt-[2rem]" id="AI Groundwork" title="Samuel and the IBM Checkers Program" date="1952" 
+          description={<>- In 1956, IBM engineer Arthur Samuel developed a checkers-playing program for the IBM 701, the company's high-end machine intended for industry use
+          <br></br> <br></br>- The program pioneered important techniques in the field, such as 'pruning' the search tree of possible moves to overcome limited computing power and memory, and having his program play itself thousands of times, an early application of machine learning
+          </>}></TimelineBox>
+          <TimelineBox className="mt-[13rem]" id="AI Groundwork" title="MIT and Cognition" date="1956" 
+          description={<>- That same year, the field of cognitive science was born from interdisciplinary collaboration at an MIT conference
+            <br></br> <br></br>- By the 80s, cognitive explanations would overtake behavioral ones as the dominant paradigm in psychology, contributing heavily to future AI developments
+            </>}></TimelineBox>
+        </div>
+
+        <div className="lg:border-l-2 gap-y-[10rem]">
+          <TimelineBox className="mt-[40rem]" id="Early Computing" title="WWII Computers, ENIAC" date="1945" 
+          description={<>- During the war, both sides funded the design and construction of massive computers for various purposes
+            <br></br> <br></br>- Famously, the work of Turing and his British colleagues at Bletchley Park cracked the German Enigma code, believed to have shortened the war by 2-3 years
+            <br></br> <br></br>- ENIAC, the first programmable, fully electronic, digital general-purpose computer, was completed in 1945, on a contract from the US Army
+            </>}></TimelineBox>
+          <TimelineBox className="mt-[2rem]" id="AI Groundwork" title="Minsky, Edwards, and SNARC" date="1951" 
+          description={<>- In 1943, Warren McCulloch and Walter Pitts published an important paper on the theory of artificial neurons, an approach inspired by the actual neurons in our brains
+            <br></br> <br></br>- Inspired by a 1943 paper on artificial neurons, then-graduate student Marvin Minsky built an early neural net machine called the SNARC
+            </>}></TimelineBox>
+          <TimelineBox className="mt-[30rem]" id="AI Groundwork" title="The Meeting at Dartmouth" date="1956" 
+          description={<>- A 1956 summer workshop at Dartmouth was organized by Minsky along with Claude Shannon, John McCarthy, Nathaniel Rochester, considered the definitive founding of the field of AI
+            <br></br> <br></br>- Work at this meeting formally defined the field of AI and proposed research topics that would guide its future
+            </>}></TimelineBox>
+        </div>
+
+        
+      </div>
+
+      <div className="text-2xl py-10 text-green-600">
+        Early Problems and Deviance
+      </div>
+      <div id="timeline" className="grid grid-cols-2">
+        <div className="lg:border-r-2 gap-y-[10rem]">
+          <TimelineBox className="mt-[20rem]" id="early-deviance" title="Early Voices and Predictions" date="1960s-70s" 
+          description={<>- Leading AI scholars of the time were extremely optimistic about the field, based on their outstanding success on simpler problems. H.A. Simon, who was was present at the 1956 MIT meeting and in 1957 developed the General Problem Solver, a machine capable of logically solving simple puzzles like the famous Towers of Hanoi. That year, he predicted that computers would overtake humans in chess within a decade. In 1965, he again forecast that computers would surpass humans in all tasks within twenty years.
+          <br></br> <br></br>- In 1970, Minsky stated in an interview for Life that, "In from three to eight years we will have a machine with the general intelligence of an average human being."</>}></TimelineBox>
+        </div>
+
+        <div className="lg:border-l-2 gap-y-[10rem]">
+          <TimelineBox className="mt-[5rem]" id="early-deviance" title="ELIZA" date="1966" 
+          description={<>- Developed by Joseph Weizenbaum at MIT, ELIZA is considered the first chatbot, and thus the first program able to take the Turing test
+          <br></br> <br></br>- The most famous DOCTOR script mostly repeated the user's words back to them using simple rules, an approach that both simulated a popular form of therapy and allowed Weizenbaum to work within his tiny memory constraints
+          <br></br> <br></br>- However, ELIZA's users derived meaning from their conversations with the program, shocking Weizenbaum, who would go on to become a leading critic of AI. 
+          </>}></TimelineBox>
+          <TimelineBox className="mt-[15rem]" id="early-deviance" title="The Lighthill Report" date="1973" 
+          description={<>- Commissioned by the British government, James Lighthill published his evaluation of the future of AI in 1973. His findings were extremely pessimistic, highlighting the roadblocks that early advances had run into. 
+          <br></br> <br></br>- The limited computational power and memory of that era limited progress in many areas, even when the approach was correct and would later work with better computers.
+          <br></br> <br></br>- However, Lighthill's report marked the end of British funding, and a similar trend occurred in the US.
+          </>}></TimelineBox>
+
+        </div>
+      </div>
+
+      <div className="text-2xl py-10 text-green-600">
+        AI Winter
+      </div>
+      <div id="timeline" className="grid grid-cols-2">
+        <div className="lg:border-r-2 gap-y-[10rem]">
+        <TimelineBox className="mt-[15rem]" id="AI Winter" title="The FGCS Initiative" date="1982" description={<></>}></TimelineBox>
+        </div>
+
+        <div className="lg:border-l-2 gap-y-[10rem]">
+        <TimelineBox className="mt-[15rem]" id="AI Winter" title="Expert Systems" date="1980" description={<></>}></TimelineBox>
+        <TimelineBox className="mt-[15rem]" id="AI Winter" title="Deep Blue and Kasparov" date="1997" description={<></>}></TimelineBox>
 
         </div>
 
-        <div className="border-l-2 gap-y-[10rem]">
-          <TimelineBox className="pt-[20rem]" id="Article2" title="Title" date="1960" description="dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis autLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidie irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></TimelineBox>
-        </div>
+        
       </div>
-
+      
       <div>
 
       </div>
