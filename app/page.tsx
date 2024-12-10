@@ -112,18 +112,79 @@ export default function Home() {
       </div>
       <div id="timeline" className="grid grid-cols-2">
         <div className="lg:border-r-2 gap-y-[10rem]">
-        <TimelineBox className="mt-[15rem]" id="AI Winter" title="The FGCS Initiative" date="1982" description={<></>}></TimelineBox>
+        <TimelineBox className="mt-[40rem]" id="AI Winter" title="The FGCS Initiative" date="1982"
+        description={<>- Following a run of considerable success across multiple industries, the Japanese Ministry of International Trade and Industry launched an ambitious plan to take over the computer market in 1982.
+          <br></br> <br></br>- Known as the 'Fifth Generation Computer System' initiative, this 10-year plan set lofty goals, focused on the development of intelligent systems with reasoning capabilities.
+          <br></br> <br></br>- The US government, fearful of losing their place in the global market, mirrored this initiative with its own wave of funding.
+          <br></br> <br></br>- As in the 50s and 60s, these targets turned out to be completely unrealistic, and Japan's $320 million investment was largely wasted.
+          </>}></TimelineBox>
+
+        <TimelineBox className="mt-[5rem]" id="AI Winter" title="Soviet Nuclear False Alarm" date="1983" 
+        description={<>A new Soviet early warning system incorporating artificial intelligence malfunctioned on September 26, 1983, displaying high confidence of a US nuclear strike at a time of strained relations between the superpowers.
+          <br></br> <br></br>- Soviet engineer Stanislav Petrov suspected a malfunction, due to the tiny size of the strike (any first strike would aim to wipe out the Soviet Union to prevent retaliation), and did not alert his superiors, possibly preventing nuclear war had the Soviets launched.
+          </>}></TimelineBox>
+
+        <TimelineBox className="mt-[30rem]" id="AI Winter" title="Deep Blue beats Kasparov" date="1997" 
+        description={<>- One of AI's most famous triumphs is the 1997 defeat of reigning world chess champion Garry Kasparov by IBM's Deep Blue. Widely considered one of the greatest players of all time, Kasparov had won a first match 4 - 2 the prior year, but succumbed to an upgraded version in the rematch, 3.5 - 2.5.
+        <br></br> <br></br>- Deep Blue used an expert system structure, with rules and opening moves crafted by grandmasters on IBM's team. These rules were used to limit its search tree and ensure every one of the 200 million positions it evaluated each second were meaningful.
+        <br></br> <br></br>- Deep Blue's design was not entirely new, but hardware advances allowed it to process far more positions than earlier chess-playing programs.
+        <br></br> <br></br>- While the tree of possible moves in chess dwarfs that of a game like checkers, the game Go possesses an even more expansive tree that would take decades and new innovations to crack.
+        </>}></TimelineBox>  
+        
         </div>
 
         <div className="lg:border-l-2 gap-y-[10rem]">
-        <TimelineBox className="mt-[15rem]" id="AI Winter" title="Expert Systems" date="1980" description={<></>}></TimelineBox>
-        <TimelineBox className="mt-[15rem]" id="AI Winter" title="Deep Blue and Kasparov" date="1997" description={<></>}></TimelineBox>
+        <TimelineBox className="mt-[5rem]" id="AI Winter" title="Expert Systems" date="1980" description={<>- A common approach to artificial intelligence at the time was knowledge-based. Expert systems were provided with some base knowledge about the world, and an engine which applied these rules through if-then logic to draw conclusions.
+          <br></br> <br></br>- The medical program MYCIN, using this system, was one of the most notable successes of the knowledge method. MYCIN would ask the doctor a series of questions, then use its knowledge base to diagnose bacterial infections and recommend antibiotics.
+          </>}></TimelineBox>
+        <TimelineBox className="mt-[5rem]" id="AI Winter" title="Eurisko" date="1981 - 82" 
+        description={<>- Carnegie Mellon professor Douglas Lenat developed the discovery system Eurisko in the late 1970s. Like an expert system, Eurisko made use of encoded knowledge, and used logical rules to discover new ideas, including innovative rules on how to modify its own rules.
+          <br></br> <br></br>- Eurisko won the national championship for the sci-fi game Traveller in 1981 and 1982 by exploiting corner cases in a way considered cheating by most. After its 1981 win, the program discovered it was allowed to destroy its own ships en route to another win. Lenat did not compete in 1983, due to a threat by the championship's sponsor to cancel the tournament if he did.
+        </>}></TimelineBox>
+
+        <TimelineBox className="mt-[30rem]" id="AI Winter" title="Backpropagation" date="1985" 
+        description={<>- Backpropagation, the key mechanism behind modern neural networks, was first popularized by David Rumelhart in 1985. 
+          <br></br> <br></br>- Although the algorithm had been discovered and published several times before, none of those papers gained traction before Rumelhart's independent derivation.
+          <br></br> <br></br>- One of Rumelhart's co-authors on the paper, Geoffrey Hinton, would go on to become one of the biggest names in the field.
+          </>}></TimelineBox> 
 
         </div>
 
         
       </div>
       
+
+
+      <div className="text-2xl py-10 text-green-600">
+        Industry Integration and Normalization
+      </div>
+      <div id="timeline" className="grid grid-cols-2">
+        <div className="lg:border-r-2 gap-y-[10rem]">
+        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="Roomba" date="2002"
+        description={<></>}></TimelineBox>
+
+        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="DARPA Grand Challenge" date="" 
+        description={<></>}></TimelineBox>
+
+        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="ImageNet" date="2012" 
+        description={<></>}></TimelineBox>  
+        
+        </div>
+
+        <div className="lg:border-l-2 gap-y-[10rem]">
+        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="Netflix" date="2006" 
+        description={<></>}></TimelineBox>
+
+        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="Watson wins Jeopardy" date="2011" 
+        description={<></>}></TimelineBox>
+
+        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="Google Photo Recognition" date="1985" 
+        description={<></>}></TimelineBox> 
+
+        </div>
+
+        
+      </div>
       <div>
 
       </div>
