@@ -232,7 +232,7 @@ export default function Home() {
       <div className="text-2xl py-10 text-green-600">
         Modern AI
       </div>
-      <div id="timeline" className="grid grid-cols-2">
+      <div id="timeline" className="grid grid-cols-2 pb-10">
         <div className="lg:border-r-2 gap-y-[10rem]">
         <TimelineBox className="mt-[0rem]" id="Modern AI" title="Transformers" date="2017"
         description={<>- The 2017 paper 'Attention is All You Need' introduced the transformer architecture, powered by the innovative self-attention mechanism.
@@ -265,8 +265,10 @@ export default function Home() {
 
         
       </div>
-      <div>
-
+      <div className="mb-10">
+      <Link href="/pages/research/#lookingforward" className="mt-10 hover:scale-105 text-white bg-green-500 hover:bg-green-600 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800">
+          What's next?
+        </Link>
       </div>
       
     </div>
