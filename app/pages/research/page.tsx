@@ -91,6 +91,37 @@ export default function ResearchPage() {
                 content={<>
                 The future of AI, particularly the pursuit of Artificial General Intelligence (AGI), is shaped by the history of normalization of deviance in the field. As AI moves closer to potentially reaching AGI, there is a risk that the same patterns of overlooking ethical concerns, biases, and safety issues that have emerged throughout AI’s evolution will continue. In the race to create more advanced, powerful systems, it is possible that developers may prioritize speed and performance over ethical foundations, much as they have in the past. For instance, the rapid growth of large-scale models like GPT and AlphaFold often ignores the problems they have caused. As AI integrates further and further into our lives, it is possible we forget the identity of these systems. Similar to earlier AI systems that people forgot were indeed AI systems, we in the present will normalize the deviation from human-based systems. As we approach AGI, this normalization of AI in our lives holds the potential to inflict great harm, from deepened inequalities to other unforeseen impacts on human society. To avoid repeating past mistakes, future AI development will need to integrate oversight, transparency, and governance, ensuring that the pursuit of AGI is done with caution and responsibility.</>}
                 link=""/>
+
+                <div className="flex flex-col gap-y-2 text-center text-green-600 pb-10 mt-[5rem]">
+                    <h1 className="text-2xl text-black">Sources</h1>
+                    <a href="https://ai100.stanford.edu/gathering-strength-gathering-storms-one-hundred-year-study-artificial-intelligence-ai100-2021-1/sq2">
+                        One Hundred Year Study on Artificial Intelligence &#8599;
+                    </a>
+
+                    <a href="https://en.wikipedia.org/wiki/History_of_natural_language_processing">
+                        History of Natural Language Processing &#8599;
+                    </a>
+
+                    <a href="https://en.wikipedia.org/wiki/History_of_natural_language_processing">
+                        History of Natural Language Processing &#8599;
+                    </a>
+
+                    <a href="https://medium.com/@ambika199820/what-is-computer-vision-history-applications-challenges-13f5759b48a5">
+                        What is Computer Vision? History, Applications, Challenges &#8599;
+                    </a>
+
+                    <a href="https://www.computerhistory.org/timeline/ai-robotics/">
+                        AI & Robotics Timeline &#8599;
+                    </a>
+                    
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/32565184/">
+                        History of Artificial Intelligence &#8599;
+                    </a>
+
+                    <a href="https://arxiv.org/pdf/1610.07997">
+                        Artificial Intelligence Safety and Cybersecurity &#8599;
+                    </a>
+                </div>
             </div>
         </div>
     )
