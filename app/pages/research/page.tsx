@@ -69,6 +69,16 @@ export default function ResearchPage() {
                 
                 Luctus aptent at ac lacus mus facilisi pretium. Penatibus quam vitae fringilla accumsan est ultrices dictum quam. Quisque libero nibh ut vestibulum magna nostra consectetur posuere. Malesuada aenean nunc iaculis suspendisse eu neque neque! Taciti morbi mattis magna varius dui quam vivamus felis. Nostra platea commodo non porttitor lacus a dui imperdiet. Quisque torquent efficitur dis turpis fusce duis. Cubilia cras fusce tellus commodo cras ultricies. Nullam nibh aliquam vitae scelerisque elit tempor sollicitudin torquent?"
                 link=""/>
+
+                <ResearchPageBox 
+                id="Modern AI"
+                title="Modern AI: 2017 - 2024"
+                content="Lorem ipsum odor amet, consectetuer adipiscing elit. Etiam duis massa vehicula, conubia turpis maximus feugiat. Laoreet montes vulputate neque; sed velit ut. Hendrerit ad semper sem habitasse vestibulum. Libero integer lectus pulvinar litora posuere in auctor dolor. Ex cubilia turpis nostra ligula phasellus pellentesque sed ridiculus purus. Consequat congue arcu tempus feugiat turpis maximus. Netus ipsum id ridiculus ornare orci cursus augue.
+
+                Vulputate morbi conubia odio magna class ullamcorper ac suspendisse. Eleifend lacinia quisque ultricies quisque morbi curae et accumsan. Sem montes dictumst natoque leo vestibulum; laoreet porttitor. Dui ultricies rhoncus adipiscing nullam ex suscipit pretium senectus. Dui vel tempor vehicula himenaeos mollis, facilisis ligula luctus. Nisl rhoncus ex libero dolor; nibh eu. Etiam venenatis dictum torquent amet nisi dignissim pellentesque non. Nisi sem platea nisl, ligula quisque vivamus.
+                
+                Luctus aptent at ac lacus mus facilisi pretium. Penatibus quam vitae fringilla accumsan est ultrices dictum quam. Quisque libero nibh ut vestibulum magna nostra consectetur posuere. Malesuada aenean nunc iaculis suspendisse eu neque neque! Taciti morbi mattis magna varius dui quam vivamus felis. Nostra platea commodo non porttitor lacus a dui imperdiet. Quisque torquent efficitur dis turpis fusce duis. Cubilia cras fusce tellus commodo cras ultricies. Nullam nibh aliquam vitae scelerisque elit tempor sollicitudin torquent?"
+                link=""/>
             </div>
         </div>
     )

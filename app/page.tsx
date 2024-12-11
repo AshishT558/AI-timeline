@@ -161,25 +161,105 @@ export default function Home() {
       <div id="timeline" className="grid grid-cols-2">
         <div className="lg:border-r-2 gap-y-[10rem]">
         <TimelineBox className="mt-[0rem]" id="Entering Industry" title="Roomba" date="2002"
-        description={<></>}></TimelineBox>
+        description={<>- Roombas first hit the market in September 2002, paving the way for one of the first successful applications of artificial intelligence to consumer products and everyday life.
+          <br></br> <br></br>- You likely don't think of these little robots as applications of artificial intelligence, but they were first developed at the MIT Computer Science and Artificial Intelligence Lab, and use basic AI techniques to navigate and perform their cleaning duties.
+          <br></br> <br></br>- American AI researcher Larry Tesler, who invented copy-paste, quipped in 1979 that 'AI is whatever hasn't been done yet.' Roomba and other successes of AI have become so ubiquitous that we no longer associate them with the field of AI.
+          </>}></TimelineBox>
 
-        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="DARPA Grand Challenge" date="" 
-        description={<></>}></TimelineBox>
+        <TimelineBox className="mt-[8rem]" id="Entering Industry" title="DARPA Grand Challenge" date="2004 - 07" 
+        description={<>- The first three iterations of the DARPA Grand Challenge, an autonomous vehicle competition funded by the DoD, took place from 2004-2007.
+          <br></br> <br></br>- While no team completed the inaugural course in 2004, teams from Stanford and Carnegie Mellon fought for the top spots in the 2005 and 2007 editions.
+          <br></br> <br></br>- The contests spurred early advances in autonomous vehicles that would be used both by the military and in industry.
+          </>}></TimelineBox>
 
-        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="ImageNet" date="2012" 
-        description={<></>}></TimelineBox>  
+        <TimelineBox className="mt-[5rem]" id="Entering Industry" title="ImageNet" date="2008 - 10" 
+        description={<>- From 2008 to 2010, then-Princeton professor Fei-Fei Li assembled the ImageNet database, using Amazon's Mechanical Turk to provide labels to tens of millions of images.
+        <br></br> <br></br>- Mechanical Turk has been wrought with controversy over its labor practices; even US workers make about $5.50 an hour on average.
+        <br></br> <br></br>- After completion, Li published this dataset to launch an image classification challenge, where models had to classify objects into one of 1000 categories.
+        </>}></TimelineBox>  
+
+        <TimelineBox className="mt-[50rem]" id="Entering Industry" title="Google Photo Recognition" date="2015" 
+        description={<>- In 2015, Google's Photos app automatically classified pictures of black people as gorillas in their own photo albums.
+        <br></br> <br></br>- Image recognition software from other companies have failed in similar ways, with Flickr classifying both black and white people as animals and apes the previous year.
+        </>}></TimelineBox> 
+
+        <TimelineBox className="mt-[5rem]" id="Entering Industry" title="AlphaGo" date="2016" 
+        description={<>- In 2016, Google subsidiary DeepMind cracked the game of Go, one of the last bastions of human superiority since Kasparov's loss to Deep Blue almost two decades prior.
+        <br></br> <br></br>- Using previously described deep learning approaches, DeepMind's program AlphaGo crushed Go champion and one of the world's top players Lee Sedol 4-1 in a match.
+        <br></br> <br></br>- A successor, AlphaGo Zero, abandoned human-taught theory and completely taught itself the game, eventually crushing the version that beat Sedol 100-0. This approach would also be used to destroy the strongest chess and shogi computers.
+        </>}></TimelineBox> 
         
         </div>
 
         <div className="lg:border-l-2 gap-y-[10rem]">
-        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="Netflix" date="2006" 
-        description={<></>}></TimelineBox>
+        <TimelineBox className="mt-[40rem]" id="Entering Industry" title="Netflix" date="2006" 
+        description={<>- In 2006, Netflix provided a large anonymized user dataset for a $1 million contest to beat their in-house recommendation algorithm by 10% or more.
+          <br></br> <br></br>- The contest pushed drastic advances in the field of collaborative filtering (the type of recommendation algorithm Netflix uses.) After three years, a team including AT&T Research scientists won the grand prize with an innovative approach.
+          <br></br> <br></br>- While the data was anonymized, users were still identifiable, and similar privacy concerns forced Netflix to shut down a sequel in 2010.
+          <br></br> <br></br>- We may not think of Netflix or Spotify as artificial intelligence companies, but their recommendation algorithms are driven by cutting-edge AI techniques.
+          </>}></TimelineBox>
 
-        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="Watson wins Jeopardy" date="2011" 
-        description={<></>}></TimelineBox>
+        <TimelineBox className="mt-[10rem]" id="Entering Industry" title="Watson wins Jeopardy" date="2011" 
+        description={<>- IBM's research wing claimed another famous victory of artificial intelligence when their supercomputer Watson defeated Jeopardy! champions Brad Rutter and Ken Jennings, both among the show's most successful players.
+        <br></br> <br></br>- Backed not only by its language processing ability and deep knowledge database, but also a complex wagering algorithm, Watson claimed the $1 million prize in front of 34 million Americans. 
+        </>}></TimelineBox>
 
-        <TimelineBox className="mt-[0rem]" id="Entering Industry" title="Google Photo Recognition" date="1985" 
-        description={<></>}></TimelineBox> 
+        <TimelineBox className="mt-[5rem]" id="Entering Industry" title="AlexNet" date="2012" 
+        description={<>- The ImageNet challenge was won in 2012 by a University of Toronto team composed of PhD student Alex Krizhevsky, his advisor Geoffrey Hinton, and Ilya Sutskever, another Hinton PhD student who would go on to cofound OpenAI.
+          <br></br> <br></br>- Their method used a deep learning approach with a 60-million parameter, 650,000 neuron convolutional network.
+          <br></br> <br></br>- Training such a vast network was possible using GPUs, and it subsequently outpaced the competition by miles.
+          <br></br> <br></br>- Krizhevsky's model inspired extensive research into deep learning, which has become the dominant AI approach to this day.
+          </>}></TimelineBox> 
+
+          <TimelineBox className="mt-[25rem]" id="Entering Industry" title="COMPAS" date="2016" 
+        description={<>- A 2016 ProPublica investigation found evidence of racial bias in COMPAS, a criminal recidivism tool.
+          <br></br> <br></br>- Developed by Northpointe (now Equivant), this proprietary software was used in NY, Wisconsin, and California to suggest sentences to judges. 
+          <br></br> <br></br>- Researchers found discrepancies between risk ratings for black defendants compared to white defendants who had committed similar crimes, and furthermore showed that the algorithm was less accurate than human experts.
+          </>}></TimelineBox> 
+
+          <TimelineBox className="mt-[5rem]" id="Entering Industry" title="Microsoft TAY" date="2016" 
+        description={<>- Microsoft launched Tay, an AI Twitter bot, on March 23, 2016. Tay's design followed from Microsoft's work on Xiaoice, which has covered over 660 million users and 900 million content viewers in China, Japan, the USA, and Indonesia.
+        <br></br> <br></br>- Despite the great success of Xiaoice, Tay began posting offensive tweets almost immediately, and was shut down after 16 hours.
+        </>}></TimelineBox> 
+
+        </div>
+
+        
+      </div>
+
+
+
+      <div className="text-2xl py-10 text-green-600">
+        Modern AI
+      </div>
+      <div id="timeline" className="grid grid-cols-2">
+        <div className="lg:border-r-2 gap-y-[10rem]">
+        <TimelineBox className="mt-[0rem]" id="Modern AI" title="Transformers" date="2017"
+        description={<>- The 2017 paper 'Attention is All You Need' introduced the transformer architecture, powered by the innovative self-attention mechanism.
+        <br></br> <br></br>- The paper has been cited over 144,000 times as of my writing this, and revolutionized the field of natural language processing overnight. Transformer-based models made nearly all existing work in the field obsolete, laying the foundation for LLMs like GPT.
+        </>}></TimelineBox>
+
+        <TimelineBox className="mt-[10rem]" id="Modern AI" title="AlphaFold" date="2018 - 20" 
+        description={<>- AlphaFold was developed by Google DeepMind to predict protein structures, using deep learning and a modified attention network resembling the previously described transformer architecture.
+          <br></br> <br></br>- In 2018, the program won the CASP protein structure prediction contest, and trounced all competitors with an upgraded version at the next contest in 2020.
+          <br></br> <br></br>- AlphaFold developers Demis Hassabis and John Jumper won the 2024 Nobel Prize in Chemistry.
+          <br></br> <br></br>- The program has been described as revolutionary, especially for understanding diseases and engineering treatments.
+          </>}></TimelineBox>
+
+        
+        </div>
+
+        <div className="lg:border-l-2 gap-y-[10rem]">
+        <TimelineBox className="mt-[20rem]" id="Modern AI" title="Uber Incident" date="2018" 
+        description={<>- On March 18, 2018, Elaine Herzberg was struck and killed by an Uber self-driving car test in Tempe, Arizona. She was the first pedestrian to be killed by an autonomous vehicle.
+          <br></br> <br></br>- Despite the presence of a driver in the car, the working conditions and low visibility of the night may have made it difficult for them to intervene.
+          <br></br> <br></br>- While Herzberg was the first pedestrian killed by an autonomous vehicle, many others have died behind the wheel of self-driving cars both before and since her death.
+          </>}></TimelineBox>
+
+        <TimelineBox className="mt-[20rem]" id="Modern AI" title="ChatGPT" date="2022" 
+        description={<>- OpenAI’s ChatGPT represents a major milestone in AI history as one of the most advanced large language models, demonstrating abilities in natural language understanding and generation, including complex, context-aware, and human-like interactions.
+          <br></br> <br></br>- Unlike earlier limited-access AI systems , ChatGPT has brought conversational AI to millions of users globally. The widespread use of ChatGPT has started critical discussions on AI ethics, misinformation, and safety, influencing the development of policies and frameworks to guide the responsible design, deployment, and governance of AI technologies.
+          </>}></TimelineBox>
 
         </div>
 
